@@ -1,0 +1,111 @@
+.ctn{
+  width: 100vw;
+  margin:unset;
+  text-align: center;
+  display:inline-block;
+  height:70vh;
+}
+
+button{
+  padding:20px;
+  border-radius:1%;
+  border: double #a83535 4px;
+
+}
+
+button:hover{
+  color:red;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+#player{
+  margin-bottom:20px;
+}
+.dice img{
+  border: 2px white solid;
+  border-radius: 2%;
+  padding:1px 10px;
+  background-color:cyan;
+  
+}
+
+body {
+  background-color: #000000;
+  margin:0px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-transform:uppercase;
+  /* text-shadow: 5px 0 #fdfdfd;*/
+  font-size:5rem;
+  font-weight:220;
+  color: #fac504;
+  width:100vw;
+  border-bottom:solid 2px cyan;
+  margin:10px;
+  margin-left:0px;
+}
+h4{
+  color:white;
+  margin:0px;
+
+}
+
+p {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight:100;
+}
+
+#score{
+  font-size:4rem;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight:1;
+  color:cyan;
+  border-bottom:2px  solid;
+  border-top: 2px  solid;
+}
+
+img {
+  width: 60%;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+footer {
+  padding-top:100px;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+.btn{
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  height:80px;
+  background-color:black;
+}
+
+#ready {
+  font-size:4rem;
+  text-transform:uppercase;
+  font-family: 'Roboto',sans-serif;
+  text-align:center;
+  justify-content:center;
+  font-weight:200;
+  color:white;
+  margin-bottom:20px;
+  margin-top:0px;
+  
+}
+#score{
+  margin-bottom:25px;
+}

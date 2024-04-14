@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    @media (min-width: 374px) and (max-width:416px){
+      .ctn{
+        height:100vh;
+        font-size:1rem;
+  
+
+  
+      }
+      .ctn h1{
+        font-size:3rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-left:0px;
+        padding:50 0px 0px 50px;
+        margin:0px;
+        width:100vw;
+      }
+
+      .ctn > img {
+        padding:0px;
+        margin:0px;
+      }
+      .dice{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+      }
+      .dice img{
+        height:200px;
+        width:200px;
+        margin-bottom:5px;
+        margin-top:10px;
+      }
+
+      #score{
+        font-size:2.5rem;
+      }
+      #ready{
+        font-size:2.3rem;
+        margin-top:0px;
+      }
+
+      .btn{
+        margin:20px 0px 20px 0px;;
+      }
+      p{
+        font-size:1.3rem;
+
+      }
+      body{
+        margin-left:0px;
+        display:inline-block;
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+      }
+      .ctn > h2{
+        margin-top:50px;
+      }
+      footer{
+        padding:30px;
+      }
+    }
+  </style>
+  </head>
+  <body>
+    <div class="ctn">
+      <h1><span>Lucky - Sevens </span></h1>
+      <img src = "./clover.png" style = "width:100px; margin:25px;"/>
+      <h2 id="ready">ROLL THE DICE</h2>
+      <h4 id = "score"></h4>
+
+      <div class="dice">
+        <button id ="btn" class="btn" onclick="rollDicePairAnimation()"><p>Player 1</p></button>
+        <img id="diceImage1" src="./dice1.png"/>
+      </div>
+
+      <div class="dice">
+        <button id = 'btn' class="btn" onclick="rollDicePairAnimation()"><p>Player 2</p></button>
+        <img id="diceImage2" src="./dice6.png"/>
+      </div>
+      
+    
+    <footer>www 🎲 Lucky - Sevens 🎲 com</footer>
+    <script src="./index.js" ></script>
+  </body>
+</html>
